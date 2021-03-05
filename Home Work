@@ -1,3 +1,5 @@
+Work 1
+
 //Задан массив действительных чисел размерности 10х10. Найти суммы элементов каждой строки, произведения элементов каждого столбца, 
 //и максимальный элемент главной диагонали (подсказка: все элементы, для которых номер строки совпадает с номером столбца).
 
@@ -44,6 +46,28 @@ namespace MyProject1
             Console.Write("\t Sum=" + sum);
             Console.Write("\t Mult=" + mult);
             Console.Write("\t Max=" + max);
+        }
+    }
+}
+
+Work 2
+
+//Write a software code that will count the sum of numbers 1-10.
+
+using System;
+namespace MyProject1 
+{
+    class Myproject
+    {
+        static void Main()
+        {
+            int sum = 0;
+            for(int i = 1; i < 10; i++)
+            {
+                sum += i;
+                Console.WriteLine("Sum =" + sum);
+            }
+
         }
     }
 }
