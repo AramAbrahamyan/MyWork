@@ -72,4 +72,180 @@ namespace MyProject1
     }
 }
     
+    
+Work 3
+
+//Write software code that displays all even numbers in the 3-23 range
+
+using System;
+namespace MyProject1 
+{
+    class Myproject
+    {
+        static void Main()
+        {
+            int even= 0;
+            for(int i = 3; i < 23; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    even = i;
+                    Console.WriteLine("Even Numbers =" + even);
+                }
+            }
+
+        }
+    }
+}
+
+Work 4
+
+//Write software code that displays all 3 multiples of the range 3-23
+
+
+using System;
+namespace MyProject1 
+{
+    class Myproject
+    {
+        static void Main()
+        {
+            int multiply = 1;
+            for(int i = 3; i < 23; i++)
+            {
+                if (i % 3 == 0) 
+                {
+                    multiply = i;
+                    Console.WriteLine("Multiply the numbers by 3= " + multiply);
+                }
+            }
+
+
+        }
+    }
+}
+
+Work 5
+
+//Write software code that displays the sum of all 4 multiples of 4-44
+
+
+using System;
+namespace MyProject1 
+{
+    class Myproject
+    {
+        static void Main()
+        {
+            int mult;
+            int sum;
+            for(int i = 4; i < 44; i++)
+            {
+                if (i % 4 == 0)
+                {
+                    mult = i;
+                    Console.WriteLine("Multiples numbers by 4 = " + mult);
+                    sum += mult;
+
+                }
+               
+            }
+            Console.WriteLine(" The sum of all 4 multiples = " + sum);
+        }
+    }
+}
+
+Work 6
+
+//Write a program code that will display the product of the numbers in the range 4-44, which are divisible by 5 and leave 4 remainders.
+
+
+using System;
+namespace MyProject1 
+{
+    class Myproject
+    {
+        static void Main()
+        {
+            double multiples = 1;
+            double mult;
+            for(double i = 4; i < 44; i++)
+            {
+                if (i % 5 == 4)
+                {
+                    mult = i;
+                    Console.WriteLine("are divided by 5 and leave 4 residues = " + mult);
+                    multiples *= mult;
+                }
+            }
+            Console.WriteLine("Multiples numbers = " + multiples);
+        }
+    }
+}
+
+Work 7
+
+// Write software code that displays all 5 odd numbers in the 4-44 range and number
+
+
+using System;
+namespace MyProject1 
+{
+    class Myproject
+    {
+        static void Main()
+        {
+            int count=0;
+            int mult=0;
+            int oddnumbers=0;
+            for(int i = 4;i < 44; i++)
+            {
+                if (i % 5 == 1)
+                {
+                    mult = i;
+                    Console.WriteLine("Muliples numbers = " + mult);
+                }
+            }
+            for(int i = 4; i < 44; i++)
+            {
+                if (i % 5 == 1)
+                {
+                    oddnumbers++;
+                }
+            }
+            Console.WriteLine(oddnumbers);
+            
+        }
+    }
+}
+
+Work 8
+
+//Write software code that displays all 3 even numbers in the range 4-44 և their sum
+
+
+using System;
+namespace MyProject1 
+{
+    class Myproject
+    {
+        static void Main()
+        {
+            int sum = 0;
+            int mult = 0;
+            Console.WriteLine("Add Numbers");
+            for (int i = 4; i < 44; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    mult = i;
+                    Console.WriteLine("Multiples 3 evem numbers = " + mult);
+                    sum += mult;
+                }
+            }
+            Console.WriteLine("Sum even numbers = " + sum);
+
+        }
+    }   
+}
    
