@@ -409,5 +409,37 @@ namespace MyProject1
     }   
 }
 
+Work 15 Write software code that displays 5 times odd numbers from the range of 5-55, counts the number, sum and product and the result will be displayed.
+
+
+using System;
+namespace MyProject1 
+{
+    class Myproject
+    {
+        static void Main()
+        {
+            int Odd_numbers = 0;
+            int sum = 0;
+            int quantity = 0;
+            double Multiples = 1;
+            for (int i = 5; i < 55; i++)
+            {
+                if (i % 5 == 1)
+                {
+                    Odd_numbers = i;
+                    Console.WriteLine("Oddnumbers = " + Odd_numbers);
+                    quantity++;
+                    sum += Odd_numbers;
+                    Multiples *= Odd_numbers;
+                }
+
+            }
+            Console.WriteLine("Quantity = " + quantity);
+            Console.WriteLine("Sum numbers = " + sum);
+            Console.WriteLine("Multiples numbers = " + Multiples);
+        }
+    }   
+}
 
 
