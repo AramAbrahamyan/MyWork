@@ -7,3 +7,7 @@ Write a program code that will display the product of the numbers in the range 4
 Write software code that displays all 5 odd numbers in the 4-44 range and their number
 Write software code that displays all 3 even numbers in the range 4-44 and their sum
 Write a program code that switches the position of the number 8 to the left 2 times, the result will be displayed on the screen, it will be shifted 3 times to the right and the result will be displayed on the screen again.
+Write software code that multiplies the numbers 8 and 9 bit by bit and the result will be displayed.
+Write software code that will add the numbers 5 and 9 bit by bit and bring the result to the screen
+Write software code that will count the number of digits in the entered number.
+Write a program code that will count the entered number, first displaying it in a straight line from left to right, then in reverse reading from right to left.
