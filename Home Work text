@@ -11,3 +11,9 @@ Write software code that multiplies the numbers 8 and 9 bit by bit and the resul
 Write software code that will add the numbers 5 and 9 bit by bit and bring the result to the screen
 Write software code that will count the number of digits in the entered number.
 Write a program code that will count the entered number, first displaying it in a straight line from left to right, then in reverse reading from right to left.
+Write a program code that displays 5 times odd numbers from the range 5-55, counts the number, sum and product and the result will be displayed.
+Write software code that will display squares and cubes of all numbers in the range 0-10.
+Enter a one-dimensional array of 8 elements bring them to the screen, indicating the indexes.
+Enter a one-dimensional array consisting of 8 elements display the resulting array, then the negative elements of that array.
+Calculate the number of positive elements in a one-dimensional array.
+Calculate the sum of even numbers in a one-dimensional array.
