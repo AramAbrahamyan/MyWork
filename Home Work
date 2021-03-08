@@ -443,3 +443,112 @@ namespace MyProject1
 }
 
 
+16 Work Write software code that will display squares and cubes of all numbers in the range 0-10.
+
+
+
+
+using System;
+  class Program
+    { 
+       static void Main()
+       {
+          int square;
+          int cube;
+          for(int i = 0; i < 10; i++)
+          {
+            square = (i * i);
+            Console.Write(i + " ");
+            cube = (i * i * i);
+            Console.WriteLine("Square = " + square + "\tCube = " + cube);
+          }
+       }
+     }
+     
+17 Work Enter a one-dimensional array of 8 elements bring them to the screen, indicating the indexes.
+
+
+using System;
+  class Program
+    { 
+       static void Main()
+       {
+        int[] Element = new int[] { 4, 15, 32, 48, 7, 21, 31, 44 };
+        for(int i = 0; i < 8; i++)
+        {
+            Console.WriteLine("Index and Element = " +"[" + i + "]"+ Element[i]);
+        }
+       }
+     }
+     
+18 Work Enter a one-dimensional array consisting of 8 elements display the resulting array, then the negative elements of that array.
+
+using System;
+  class Program
+    { 
+       static void Main()
+       {
+        int Negative_numbers=0;
+        int[] Element = new int[] { 5, 22, 84, 66, -4, 2, -15, -64 };
+        for(int i = 0; i < 8; i++)
+        {
+            Console.WriteLine("Index and Element = " + "[" + i + "] = " + Element[i]);
+            if (Element[i] < 0)
+            {
+                Negative_numbers = Element[i];
+                Console.WriteLine("\t\tNegative numbers = " + Negative_numbers);
+            }
+        }
+       
+       }
+     }
+     
+     
+Work 19 Calculate the number of positive elements in a one-dimensional array.
+
+
+
+using System;
+  class Program
+    { 
+       static void Main()
+       {
+        int Positive_numbers=0;
+        int[] Element = new int[] { 5, 22, 84, 66, -4, 2, -15, -64 };
+        for(int i = 0; i < 8; i++)
+        {
+            if (Element[i] > 0)
+            {
+                Positive_numbers = Element[i];
+                Console.WriteLine("Positive_numbers = " + Positive_numbers);
+            }
+        }
+       
+       }
+     }
+
+20 Work  Calculate the sum of even numbers in a one-dimensional array.
+
+
+using System;
+namespace MyProject1
+{
+  class MyProject
+    {
+        static void Main()
+        {
+            int numbers_count=0;
+            int[] numbers = new int[8];
+            for(int i = 0; i < 8; i++)
+            {
+                Console.Write("[" + i + "] =");
+                numbers[i] = Int32.Parse(Console.ReadLine());
+                if (numbers[i] > 0)
+                {
+                    numbers_count++;
+                }
+            }
+            Console.WriteLine("Numbers count = " + numbers_count);
+        }
+    }
+}
